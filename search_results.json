@@ -1,0 +1,2674 @@
+{
+  "service_level": [
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T16:37:57.268869+00:00",
+      "query": "How many times did FileUploadService fail in the past hour",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      },
+      "service_details": {
+        "service": "FileUploadService",
+        "error_count": 20,
+        "last_error_timestamp": "2025-11-17T12:33:43.260681+00:00"
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T16:39:00.230729+00:00",
+      "query": "What is the current status of the system \u2014 stable, warning, or critical",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:24:43.717721+00:00",
+      "query": "Show me the top 5 services with the most frequent errors",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:25:15.968690+00:00",
+      "query": "Show me the insights of services with the most frequent errors",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:29:58.505999+00:00",
+      "query": "show error logs related to notifications",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:30:52.768376+00:00",
+      "query": "Show all critical errors",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:31:42.610363+00:00",
+      "query": "Find logs related to patient error",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:34:10.118504+00:00",
+      "query": "show warning level services",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:42:15.115927+00:00",
+      "query": "Show me the insights of services ",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "service_level",
+      "timestamp": "2025-11-17T20:48:36.258047+00:00",
+      "query": "Retrieve all error logs for performance issues",
+      "total_error_services": 6,
+      "top_error_services": [
+        {
+          "service": "PatientPortalAPI",
+          "error_count": 37
+        },
+        {
+          "service": "FraudDetectionService",
+          "error_count": 33
+        },
+        {
+          "service": "ClaimProcessingService",
+          "error_count": 28
+        },
+        {
+          "service": "ECGAnalysisService",
+          "error_count": 25
+        },
+        {
+          "service": "NotificationService",
+          "error_count": 23
+        }
+      ],
+      "latest_status": "STABLE",
+      "latest_error_rate": 8.33,
+      "per_service_timeline": {
+        "FraudDetectionService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 10
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "NotificationService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 3
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "FileUploadService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ECGAnalysisService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 2
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-17T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "PatientPortalAPI": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 4
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 13
+          },
+          {
+            "timestamp": "2025-11-16T12:00:00+00:00",
+            "error_count": 1
+          }
+        ],
+        "ClaimProcessingService": [
+          {
+            "timestamp": "2025-11-08T12:00:00+00:00",
+            "error_count": 6
+          },
+          {
+            "timestamp": "2025-11-09T20:00:00+00:00",
+            "error_count": 7
+          },
+          {
+            "timestamp": "2025-11-10T05:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-10T09:00:00+00:00",
+            "error_count": 5
+          },
+          {
+            "timestamp": "2025-11-11T21:00:00+00:00",
+            "error_count": 5
+          }
+        ]
+      }
+    }
+  ],
+  "system_health": [
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-12T10:13:29.392405+00:00",
+      "query": "\"Is the overall system health stable or degrading",
+      "latest_status": "WARNING",
+      "error_rate_percent": 22.22,
+      "top_error_service": "PatientPortalAPI",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 57,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-12T10:37:04.971753+00:00",
+      "query": "is overall system health check is stable or not ",
+      "latest_status": "WARNING",
+      "error_rate_percent": 22.22,
+      "top_error_service": "PatientPortalAPI",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 57,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-14T10:51:44.601985+00:00",
+      "query": "\"Generate a summary of the system\u2019s operational status",
+      "latest_status": "WARNING",
+      "error_rate_percent": 22.22,
+      "top_error_service": "PatientPortalAPI",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 57,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-14T10:59:01.356967+00:00",
+      "query": "Is the overall system health stable or degrading",
+      "latest_status": "WARNING",
+      "error_rate_percent": 22.22,
+      "top_error_service": "PatientPortalAPI",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 57,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-17T16:29:04.786443+00:00",
+      "query": "Latest system status",
+      "latest_status": "STABLE",
+      "error_rate_percent": 8.33,
+      "top_error_service": "FraudDetectionService",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 63,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        },
+        {
+          "timestamp": "2025-11-16T12:00:00",
+          "error_count": 1
+        },
+        {
+          "timestamp": "2025-11-17T12:00:00",
+          "error_count": 3
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-17T16:35:36.823697+00:00",
+      "query": "Generate a summary of the system\u2019s operational status.",
+      "latest_status": "STABLE",
+      "error_rate_percent": 8.33,
+      "top_error_service": "FraudDetectionService",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 63,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        },
+        {
+          "timestamp": "2025-11-16T12:00:00",
+          "error_count": 1
+        },
+        {
+          "timestamp": "2025-11-17T12:00:00",
+          "error_count": 3
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-17T16:36:57.999219+00:00",
+      "query": "Summarize system stability for the last 24 hours",
+      "latest_status": "STABLE",
+      "error_rate_percent": 8.33,
+      "top_error_service": "FraudDetectionService",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 63,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        },
+        {
+          "timestamp": "2025-11-16T12:00:00",
+          "error_count": 1
+        },
+        {
+          "timestamp": "2025-11-17T12:00:00",
+          "error_count": 3
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-17T20:32:24.323193+00:00",
+      "query": "Is the overall system health stable or degrading",
+      "latest_status": "STABLE",
+      "error_rate_percent": 8.33,
+      "top_error_service": "FraudDetectionService",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 63,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        },
+        {
+          "timestamp": "2025-11-16T12:00:00",
+          "error_count": 1
+        },
+        {
+          "timestamp": "2025-11-17T12:00:00",
+          "error_count": 3
+        }
+      ]
+    },
+    {
+      "type": "system_health",
+      "timestamp": "2025-11-18T04:54:42.681020+00:00",
+      "query": "give a health summary",
+      "latest_status": "STABLE",
+      "error_rate_percent": 8.33,
+      "top_error_service": "FraudDetectionService",
+      "mean_time_between_failures_hrs": 5.44,
+      "trend": "Stable",
+      "records_analyzed": 63,
+      "timeline": [
+        {
+          "timestamp": "2025-11-09T20:00:00",
+          "error_count": 26
+        },
+        {
+          "timestamp": "2025-11-10T05:00:00",
+          "error_count": 23
+        },
+        {
+          "timestamp": "2025-11-10T09:00:00",
+          "error_count": 60
+        },
+        {
+          "timestamp": "2025-11-11T21:00:00",
+          "error_count": 29
+        },
+        {
+          "timestamp": "2025-11-16T12:00:00",
+          "error_count": 1
+        },
+        {
+          "timestamp": "2025-11-17T12:00:00",
+          "error_count": 3
+        }
+      ]
+    }
+  ],
+  "semantic": [
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:40:34.851480+00:00",
+      "query": "show logs related to patient failures",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C29456. Risk of data loss. RequestId: req_0d872f97.",
+          "Timestamp": "2025-11-08T12:26:13.426342+00:00",
+          "Severity": "Low",
+          "score": 0.402
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C72945. Risk of data loss. RequestId: req_bed3ca19.",
+          "Timestamp": "2025-11-09T20:32:54.033967+00:00",
+          "Severity": "Low",
+          "score": 0.395
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C56310. Risk of data loss. RequestId: req_007c0428.",
+          "Timestamp": "2025-11-16T12:35:27.693360+00:00",
+          "Severity": "Low",
+          "score": 0.391
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C37102. Risk of data loss. RequestId: req_58ff5307.",
+          "Timestamp": "2025-11-08T12:26:04.605626+00:00",
+          "Severity": "Low",
+          "score": 0.39
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C17037. Risk of data loss. RequestId: req_33bf5b9a.",
+          "Timestamp": "2025-11-08T12:25:58.680876+00:00",
+          "Severity": "Low",
+          "score": 0.387
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:41:13.057137+00:00",
+      "query": "show logs related to patient ",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Information",
+          "Message": "PatientPortalAPI: Successfully completed report_analysis for patient P1284, claim C13536. File Insurance_Form.docx processed without issues.",
+          "Timestamp": "2025-11-10T05:31:01.106687+00:00",
+          "Severity": "Low",
+          "score": 0.453
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Information",
+          "Message": "PatientPortalAPI: Successfully completed report_analysis for patient P5744, claim C39462. File Insurance_Form.docx processed without issues.",
+          "Timestamp": "2025-11-10T09:23:53.558396+00:00",
+          "Severity": "Low",
+          "score": 0.446
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Information",
+          "Message": "PatientPortalAPI: Successfully completed report_analysis for patient P7604, claim C21764. File Claim_Documents.zip processed without issues.",
+          "Timestamp": "2025-11-11T21:32:53.654520+00:00",
+          "Severity": "Low",
+          "score": 0.436
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Information",
+          "Message": "PatientPortalAPI: Successfully completed report_analysis for patient P2580, claim C56378. File ECG_Report.pdf processed without issues.",
+          "Timestamp": "2025-11-08T12:25:49.866411+00:00",
+          "Severity": "Low",
+          "score": 0.435
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Information",
+          "Message": "PatientPortalAPI: Successfully completed report_analysis for patient P1570, claim C60889. File ECG_Report.pdf processed without issues.",
+          "Timestamp": "2025-11-09T20:31:47.646342+00:00",
+          "Severity": "Low",
+          "score": 0.433
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:41:30.328428+00:00",
+      "query": "show logs related to claim failures",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C52072. Risk of data loss. RequestId: req_28195649.",
+          "Timestamp": "2025-11-10T09:24:31.127220+00:00",
+          "Severity": "Low",
+          "score": 0.407
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Error",
+          "Message": "ClaimProcessingService: Error during login for claim C14968. Reason: Claim API unavailable. RequestId: req_bb1f9f07.",
+          "Timestamp": "2025-11-10T09:24:28.240410+00:00",
+          "Severity": "High",
+          "score": 0.405
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C27857. Risk of data loss. RequestId: req_523a5316.",
+          "Timestamp": "2025-11-08T12:25:40.984652+00:00",
+          "Severity": "Low",
+          "score": 0.401
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C65584. Risk of data loss. RequestId: req_8193e4bb.",
+          "Timestamp": "2025-11-10T05:30:46.729211+00:00",
+          "Severity": "Low",
+          "score": 0.397
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C68736. Risk of data loss. RequestId: req_5fee77ac.",
+          "Timestamp": "2025-11-11T21:32:03.377501+00:00",
+          "Severity": "Low",
+          "score": 0.397
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:41:48.264154+00:00",
+      "query": "show logs related to claim ",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Information",
+          "Message": "ClaimProcessingService: Successfully completed login for patient P3560, claim C17758. File Lab_Results.csv processed without issues.",
+          "Timestamp": "2025-11-11T21:32:09.303227+00:00",
+          "Severity": "Low",
+          "score": 0.425
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Information",
+          "Message": "ClaimProcessingService: Successfully completed login for patient P7199, claim C67249. File Claim_Documents.zip processed without issues.",
+          "Timestamp": "2025-11-10T09:24:48.444557+00:00",
+          "Severity": "Low",
+          "score": 0.424
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Performance",
+          "Message": "ClaimProcessingService: Performance metrics captured for login \u2014 latency 2336ms, cpu 74%.",
+          "Timestamp": "2025-11-09T20:32:22.247885+00:00",
+          "Severity": "Low",
+          "score": 0.423
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Information",
+          "Message": "ClaimProcessingService: Successfully completed login for patient P8458, claim C80777. File Lab_Results.csv processed without issues.",
+          "Timestamp": "2025-11-10T09:25:14.759878+00:00",
+          "Severity": "Low",
+          "score": 0.422
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Information",
+          "Message": "ClaimProcessingService: Successfully completed login for patient P8876, claim C76806. File Insurance_Form.docx processed without issues.",
+          "Timestamp": "2025-11-09T20:32:13.589253+00:00",
+          "Severity": "Low",
+          "score": 0.421
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:46:13.119838+00:00",
+      "query": "Show patient login failures",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Error",
+          "Message": "PatientPortalAPI: Error during login for claim C11653. Reason: Unauthorized data access. RequestId: req_737caeb0.",
+          "Timestamp": "2025-11-10T09:24:10.912622+00:00",
+          "Severity": "High",
+          "score": 0.398
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Error",
+          "Message": "PatientPortalAPI: Error during login for claim C79467. Reason: Invalid insurance document format. RequestId: req_0b5df0ac.",
+          "Timestamp": "2025-11-11T21:31:51.377796+00:00",
+          "Severity": "High",
+          "score": 0.398
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Error",
+          "Message": "PatientPortalAPI: Error during login for claim C29546. Reason: Unauthorized data access. RequestId: req_32b58e64.",
+          "Timestamp": "2025-11-10T05:31:32.840492+00:00",
+          "Severity": "High",
+          "score": 0.394
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Error",
+          "Message": "PatientPortalAPI: Error during login for claim C29196. Reason: Invalid insurance document format. RequestId: req_f0c046ee.",
+          "Timestamp": "2025-11-10T09:24:02.257926+00:00",
+          "Severity": "High",
+          "score": 0.389
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C29456. Risk of data loss. RequestId: req_0d872f97.",
+          "Timestamp": "2025-11-08T12:26:13.426342+00:00",
+          "Severity": "Low",
+          "score": 0.371
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:46:35.546902+00:00",
+      "query": "Show patient  failures",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C29456. Risk of data loss. RequestId: req_0d872f97.",
+          "Timestamp": "2025-11-08T12:26:13.426342+00:00",
+          "Severity": "Low",
+          "score": 0.416
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C56310. Risk of data loss. RequestId: req_007c0428.",
+          "Timestamp": "2025-11-16T12:35:27.693360+00:00",
+          "Severity": "Low",
+          "score": 0.414
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C90322. Risk of data loss. RequestId: req_3eb1f180.",
+          "Timestamp": "2025-11-08T12:25:49.866411+00:00",
+          "Severity": "Low",
+          "score": 0.413
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C37102. Risk of data loss. RequestId: req_58ff5307.",
+          "Timestamp": "2025-11-08T12:26:04.605626+00:00",
+          "Severity": "Low",
+          "score": 0.411
+        },
+        {
+          "AppName": "PatientPortalAPI",
+          "Level": "Critical",
+          "Message": "PatientPortalAPI: CRITICAL \u2014 persistent database write failure while processing claim C17037. Risk of data loss. RequestId: req_33bf5b9a.",
+          "Timestamp": "2025-11-08T12:25:58.680876+00:00",
+          "Severity": "Low",
+          "score": 0.41
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:47:18.060263+00:00",
+      "query": "Show logs related to file upload issues",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "FileUploadService",
+          "Level": "Critical",
+          "Message": "FileUploadService: CRITICAL \u2014 persistent database write failure while processing claim C22130. Risk of data loss. RequestId: req_575d10cc.",
+          "Timestamp": "2025-11-09T20:31:59.189234+00:00",
+          "Severity": "Low",
+          "score": 0.439
+        },
+        {
+          "AppName": "FileUploadService",
+          "Level": "Critical",
+          "Message": "FileUploadService: CRITICAL \u2014 persistent database write failure while processing claim C17550. Risk of data loss. RequestId: req_6cee4ad6.",
+          "Timestamp": "2025-11-09T20:33:11.331446+00:00",
+          "Severity": "Low",
+          "score": 0.436
+        },
+        {
+          "AppName": "FileUploadService",
+          "Level": "Error",
+          "Message": "FileUploadService: Error during report_analysis for claim C75220. Reason: ECG report timeout. RequestId: req_2712a96f.",
+          "Timestamp": "2025-11-11T21:32:21.378350+00:00",
+          "Severity": "High",
+          "score": 0.432
+        },
+        {
+          "AppName": "FileUploadService",
+          "Level": "Error",
+          "Message": "FileUploadService: Error during report_analysis for claim C65194. Reason: Invalid insurance document format. RequestId: req_404fe711.",
+          "Timestamp": "2025-11-10T05:31:03.982010+00:00",
+          "Severity": "High",
+          "score": 0.415
+        },
+        {
+          "AppName": "FileUploadService",
+          "Level": "Error",
+          "Message": "FileUploadService: Error during report_analysis for claim C41322. Reason: Claim API unavailable. RequestId: req_560a5a53.",
+          "Timestamp": "2025-11-08T12:26:04.605626+00:00",
+          "Severity": "High",
+          "score": 0.414
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:48:13.345126+00:00",
+      "query": "Retrieve all warning logs for performance issues",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "NotificationService",
+          "Level": "Error",
+          "Message": "NotificationService: Error during report_analysis for claim C57847. Reason: ECG report timeout. RequestId: req_f7945395.",
+          "Timestamp": "2025-11-08T12:25:58.680876+00:00",
+          "Severity": "High",
+          "score": 0.325
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C26890. Risk of data loss. RequestId: req_5074ead9.",
+          "Timestamp": "2025-11-10T05:31:47.250869+00:00",
+          "Severity": "Low",
+          "score": 0.321
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C17166. Risk of data loss. RequestId: req_3c13c5cf.",
+          "Timestamp": "2025-11-08T12:25:43.930600+00:00",
+          "Severity": "Low",
+          "score": 0.316
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Error",
+          "Message": "NotificationService: Error during report_analysis for claim C50009. Reason: ECG report timeout. RequestId: req_cdc8b93b.",
+          "Timestamp": "2025-11-09T20:32:36.733095+00:00",
+          "Severity": "High",
+          "score": 0.315
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C97182. Risk of data loss. RequestId: req_13fedef8.",
+          "Timestamp": "2025-11-08T12:25:52.792266+00:00",
+          "Severity": "Low",
+          "score": 0.306
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-17T20:48:51.825470+00:00",
+      "query": "Retrieve all failure logs for performance issues",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C17166. Risk of data loss. RequestId: req_3c13c5cf.",
+          "Timestamp": "2025-11-08T12:25:43.930600+00:00",
+          "Severity": "Low",
+          "score": 0.273
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C26890. Risk of data loss. RequestId: req_5074ead9.",
+          "Timestamp": "2025-11-10T05:31:47.250869+00:00",
+          "Severity": "Low",
+          "score": 0.273
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C23318. Risk of data loss. RequestId: req_ca6a2300.",
+          "Timestamp": "2025-11-11T21:32:44.725163+00:00",
+          "Severity": "Low",
+          "score": 0.265
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C27857. Risk of data loss. RequestId: req_523a5316.",
+          "Timestamp": "2025-11-08T12:25:40.984652+00:00",
+          "Severity": "Low",
+          "score": 0.264
+        },
+        {
+          "AppName": "NotificationService",
+          "Level": "Critical",
+          "Message": "NotificationService: CRITICAL \u2014 persistent database write failure while processing claim C65186. Risk of data loss. RequestId: req_9dcbc831.",
+          "Timestamp": "2025-11-10T09:24:45.544356+00:00",
+          "Severity": "Low",
+          "score": 0.264
+        }
+      ]
+    },
+    {
+      "type": "semantic",
+      "timestamp": "2025-11-18T04:54:02.834247+00:00",
+      "query": "show logs related to claim failures",
+      "count": 5,
+      "semantic_matches": [
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C52072. Risk of data loss. RequestId: req_28195649.",
+          "Timestamp": "2025-11-10T09:24:31.127220+00:00",
+          "Severity": "Low",
+          "score": 0.407
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Error",
+          "Message": "ClaimProcessingService: Error during login for claim C14968. Reason: Claim API unavailable. RequestId: req_bb1f9f07.",
+          "Timestamp": "2025-11-10T09:24:28.240410+00:00",
+          "Severity": "High",
+          "score": 0.405
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C27857. Risk of data loss. RequestId: req_523a5316.",
+          "Timestamp": "2025-11-08T12:25:40.984652+00:00",
+          "Severity": "Low",
+          "score": 0.401
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C65584. Risk of data loss. RequestId: req_8193e4bb.",
+          "Timestamp": "2025-11-10T05:30:46.729211+00:00",
+          "Severity": "Low",
+          "score": 0.397
+        },
+        {
+          "AppName": "ClaimProcessingService",
+          "Level": "Critical",
+          "Message": "ClaimProcessingService: CRITICAL \u2014 persistent database write failure while processing claim C68736. Risk of data loss. RequestId: req_5fee77ac.",
+          "Timestamp": "2025-11-11T21:32:03.377501+00:00",
+          "Severity": "Low",
+          "score": 0.397
+        }
+      ]
+    }
+  ]
+}

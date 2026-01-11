@@ -6,10 +6,3 @@ requests
 python-dotenv
 azure-identity
 pydantic
-sentence-transformers
-numpy
-google-generativeai
-fastapi
-uvicorn
-python-dotenv
-python-dateutil

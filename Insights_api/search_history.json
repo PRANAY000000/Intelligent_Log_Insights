@@ -1,0 +1,52 @@
+[
+    {
+        "timestamp": "2025-11-11T22:04:40.976506+00:00",
+        "query": "Which service has the highest number of errors right now?",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:41.373349+00:00",
+        "query": "Show me the top 5 services with the most frequent errors.",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:41.730123+00:00",
+        "query": "What\u2019s the current error percentage for ClaimProcessingService?",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:42.083436+00:00",
+        "query": "Compare errors between FraudDetectionService and NotificationService.",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:42.505803+00:00",
+        "query": "Has ECGAnalysisService shown any improvement recently?",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:42.906147+00:00",
+        "query": "Is the overall system health stable or degrading?",
+        "result_type": "system_health"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:43.282077+00:00",
+        "query": "Summarize system stability for the last 24 hours.",
+        "result_type": "system_health"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:43.663114+00:00",
+        "query": "Show all critical errors",
+        "result_type": "service_level"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:47.198856+00:00",
+        "query": "Find logs related to patient P3769",
+        "result_type": "semantic"
+    },
+    {
+        "timestamp": "2025-11-11T22:04:50.776146+00:00",
+        "query": "Show logs related to claim failures",
+        "result_type": "semantic"
+    }
+]

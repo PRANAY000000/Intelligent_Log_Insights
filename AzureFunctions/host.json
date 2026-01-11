@@ -1,0 +1,39 @@
+{
+  "version": "2.0",
+  "functionTimeout": "00:10:00",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensions": {
+    "serviceBus": {
+      "prefetchCount": 32,
+      "messageHandlerOptions": {
+        "maxConcurrentCalls": 8,
+        "autoComplete": true,
+        "maxAutoRenewDuration": "00:10:00"
+      },
+      "batchOptions": {
+        "maxMessageCount": 8,
+        "operationTimeout": "00:01:00"
+      }
+    },
+    "cosmosDB": {
+      "leaseOptions": {
+        "leasePrefix": "logs-processor-",
+        "leaseAcquireInterval": "00:00:10",
+        "leaseExpirationInterval": "00:01:00",
+        "leaseRenewInterval": "00:00:30"
+      },
+      "maxItemsPerInvocation": 200
+    }
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  }
+}
